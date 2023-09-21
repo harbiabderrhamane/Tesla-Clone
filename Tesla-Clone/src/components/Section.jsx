@@ -21,7 +21,7 @@ function Section({
 
           <RightButton>{rightBtnText}</RightButton>
         </ButtonGroup>
-        <DownArrow src="src/assets/images/down-arrow.svg" />
+        <DownArrow src="src/assets/down-arrow.svg" />
       </Buttons>
     </Wrap>
   );
@@ -40,7 +40,7 @@ const Wrap = styled.div`
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  background-image: ${(props) => `url("src/assets/images/${props.bgimage}")`};
+  background-image: ${(props) => `url("src/assets/${props.bgimage}")`};
 `;
 
 const ItemText = styled.div`
